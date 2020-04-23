@@ -1,166 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
-    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords"
+        content="afroerudite erudite polymath creative africa github portfolio louis nwamadi designer frontend developer lagos nigeria andela photographer lifestyle ui ux professional mentor expert">
+    <meta name="description" content="Erudite">
+    <meta name="robots" content="noindex,nofollow">
+    <!-- facebook open graph tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Louis Nwamadi | Frontend Developer">
+    <meta property="og:description" content="I'm Louis Nwamadi
+              and am a frontend Developer. I love creating well thought out products to a make user experience enjoyable. .
+              ">
+
+    <!-- twitter card tags additive with the og: tags  -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" value="Louis Nwamadi | Frontend Developer">
+    <title>Louis Nwamadi | Frontend Developer</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-  <div id="loader-wrapper">
-    <div class="loader-section">
-    <div class="loader-section-wrapper">
-        <img src="img/gafferurban.jpg" alt="">
-        <div class="text"> Gaffer urban</div>
-    </div>
-    </div>
-</div>
-<div id="contact-nav" class="overlay">
-
-    <!-- Button to close the overlay navigation -->
-    <a href="javascript:void(0)" class="closebtn" onclick="closeContactNav()">&times;</a>
-  
-    <!-- Overlay content -->
-    <div class="overlay-content">
-      <a href="https://www.linkedin.com/in/nwamadi-chukwuebuka-b8749953/">
-        <i class="fab fa-linkedin"></i>
-        LinkedIn
-      </a>
-      <a href="skype:louisdante9?userinfo">
-        <i class="fab fa-skype"></i> 
-        Skype</a>
-      <a href="https://www.instagram.com/gafferurban/">
-        <i class="fab fa-instagram"></i> 
-        Instagram</a>
-    </div>
-  
-  </div>
-  <div id="about-nav" class="about-overlay">
-
-      <!-- Button to close the overlay navigation -->
-      <a href="javascript:void(0)" class="closebtn" onclick="closeAboutNav()">&times;</a>
-    
-      <!-- Overlay content -->
-      <div class="about-overlay-content">
-        <p>I am a software developer (Fullstack web developer) with a mission towards building <br> 
-          a better world for Nigerian youths through Education, Programming and Technology. <br>
-           My primary medium is the web and I love creating well thought out products for users <br>
-           that makes it easier to navigate the world. Be it an e-commerce or SaaS platform, <br>
-           I've trained myself to provide value in any team or community i find myself.</p>
-      </div>
-    
-    </div>
-<div class="container">
-  <!-- nav section -->
-  <div class="nav">
-    <div class="logo">
-     <a href="#"><img src="img/gafferurban.jpg" alt="">
-      <div class="text"><a href="#">gaffer <span>urban</span></div></a>
-    </div>
-  <div class="center-nav">
-      <li><a onclick="openAboutNav()">aboutme</a></li>
-      <li><a href="https://github.com/louisdante9/"#>github</a></li>
-  </div>
-    <div ><a class="contact-btn" onclick="openContactNav()">contact me</a></div>
-  </div>
-  <div class="main-wrapper">
-
-    <!-- left section wrapper -->
-   <div class="left-wrapper">
-      <div class="portfolio-title">
-          <div id="date" class="date"><i>11/17</i></div>
-          <div id="title" class="title">post it</div>
-          <div id="caption" class="portfolio-caption">
-              <p>
-                  A simple application that allows friends and colleagues create 
-                  groups for collaboration. This way you can post notifications with degree of priority to 
-                    everyone in your group by sending a message once. <span><a href="https://collab-postit.herokuapp.com/">view</a> </span> 
-              </p>
-          </div>
-        </div>
-        <div class="portfolio">
-              <a href="#" class="item" onclick="addPortfolioInfo('postit')"><i class="fas fa-code-branch"></i> Post-It</a>
-              <a href="#" class="item" onclick="addPortfolioInfo('tagit')"><i class="fas fa-code-branch"></i> Tag It</a>
-              <a href="#" class="item"><i class="fas fa-code-branch"></i></a>
-              <a href="#" class="item"><i class="fas fa-code-branch"></i></a>
-              <a href="#" class="item"><i class="fas fa-code-branch"></i></a>
-          </div>
-   </div>
-   <!-- /end -->
-
-   <!-- right section wrapper -->
-    <div class="right-wrapper">
-      <div class="right-upper-content">
-          <div class="picture"><img src="img/louis.png" alt=""></div>
-          <div class="text"> 
-            <h3 class="name">louis nwamadi</h3>
-            <h6 class="professional-title">fullstack developer</h6>
-            <p class="caption">"Am a geek, Humour me"</p>
-          </div>
-        </div>
-        <!-- /end -->
-
-        <!-- right bottom spacer div  -->
-        <div></div>
-    </div>
-  </div>
-</div>
+    <main>
+        <header>
+                <div class="socials">
+                        <a href="https://www.linkedin.com/in/nwamadi-chukwuebuka/">LinkedIn</a>
+                        <a href="https://github.com/louisdante9">Github</a>
+                    </div>
+            <label class="switch">
+                <input type="checkbox" onclick="toggle()">
+                <span class="slider round"></span>
+            </label>
+        </header>
+        <section>
+            <div class="title-header">
+                <h1> I'm Louis Nwamadi </h1>
+                <h2> Frontend Developer </h2>
+                <p class="title-description">
+                    I have deep interest in frontend development and concurrent software architectures, the art of programming,
+                    everything that makes software development tick..
+                    I'm currently with <a href="https://andela.com" target="_blank">Andela.</a> I am passionate about <span>Collaboration</span> and <span>Mentorship</span> and I'm looking for
+                    opportunities to solve problems. <br>
+                    <span class="mail-btn"><a href="mailto:louisdante9@gmail.com?Subject=Hello%20louis">Have an idea?</a></span>
+                </p>
+              
+            </div>
+            <aside>
+                <img src="img/lou.png" alt="">
+            </aside>
+        </section>
+    </main>
+    <script type="text/javascript" src="./js/main.js"></script>
 </body>
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-<script src="js/jquery-1.11.3.min.js" ></script>
-<script>
 
-  $(document).ready(function() {
-    setTimeout(function() {
-      $('body').addClass('loaded');
-      $('h1').css('color', '#222222');
-    }, 1000)
-  })
-  
-  /* open contact nav*/
-  function openContactNav() {
-    document.getElementById("contact-nav").style.width = "100%";
-   }
-
-  /* Close */
-  function closeContactNav() {
-    console.log('hello there!')
-      document.getElementById("contact-nav").style.width = "0%";
-  }
-  /* open contact nav*/
-  function openAboutNav() {
-    document.getElementById("about-nav").style.height = "100%";
-   }
-
-  /* Close */
-  function closeAboutNav() {
-      document.getElementById("about-nav").style.height = "0%";
-  }
-  function addPortfolioInfo(data) {
-   if (data == 'postit') {
-    var caption = document.getElementById('caption');
-    document.getElementById('title').innerHTML = 'post it';
-    document.getElementById('date').innerHTML = '<i>11/17</i>';
-
-    caption.innerHTML = ` <p>
-        A simple application that allows friends and colleagues create 
-        groups for collaboration. This way you can post notifications with degree of priority to 
-          everyone in your group by sending a message once. <span><a href="https://collab-postit.herokuapp.com/">view</a></span>
-            </p>`
-   } else if (data == 'tagit') {
-    var caption = document.getElementById('caption');
-    document.getElementById('title').innerHTML = 'tag it';
-    document.getElementById('date').innerHTML = '<i>06/18</i>';
-
-    caption.innerHTML = ` <p>
-        An Todo application built with Angular 2 that allows user create, 
-        check as complete and delete todos.<span><a href="https://louisdante9.github.io/tag-it/">view</a></span>
-            </p>`
-   }
-  }
-</script>
 </html>
